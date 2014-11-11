@@ -1,0 +1,6 @@
+{
+  "example": [ "a.js", "b.js", "c.js", "core", "physics" ],
+  "example/core": [ "a.js", "b.js", "c.js" ],
+  "example/physics": [ "a.js", "b.js", "c.js", "forces" ],
+  "example/physics/forces": [ "a.js", "b.js", "c.js" ]
+}
