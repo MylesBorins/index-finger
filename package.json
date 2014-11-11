@@ -15,13 +15,17 @@
   "author": "Myles Borins <myles.borins@gmail.com>",
   "devDependencies": {
     "eslint": "^0.8.2",
+    "mkdirp": "^0.5.0",
     "nodemon": "^1.2.1",
+    "rimraf": "^2.2.8",
     "tap-spec": "^1.0.0",
     "tape": "^3.0.0"
   },
   "dependencies": {
+    "async": "^0.9.0",
     "findit": "^2.0.0",
-    "minimist": "^1.1.0"
+    "minimist": "^1.1.0",
+    "ncp": "^1.0.1"
   },
   "bin": {
     "index-finger": "bin/cmd.js"
