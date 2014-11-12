@@ -1,11 +1,11 @@
 {
-  "name": "famous-tool-seed",
-  "version": "0.1.2",
-  "description": "Base Famo.us NodeJS Module",
+  "name": "index-finger",
+  "version": "0.0.1",
+  "description": "create indexes for your module",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/FamousTools/famous-tool-seed.git"
+    "url": "git://github.com/thealphanerd/index-finger.git"
   },
   "scripts": {
     "test": "npm run lint && tape test/test-*.js | tap-spec",
