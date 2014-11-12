@@ -33,9 +33,13 @@ test('index-finger: can load', function (t) {
 });
 
 test('index-finger: works as expected', function (t) {
-  t.plan(1);
+  t.plan(5);
   indexFinger(source, outPath, function (err) {
     t.notok(err, 'should exit without an error');
+    t.ok(fs.existsSync(path.join(outPath, 'index.js')), 'there should be an index in the base directory');
+    t.ok(fs.existsSync(path.join(outPath, 'core', 'index.js')), 'there should be an index in the core directory');
+    t.ok(fs.existsSync(path.join(outPath, 'physics', 'index.js')), 'there should be an index in the physics directory');
+    t.ok(fs.existsSync(path.join(outPath, 'physics', 'forces', 'index.js')), 'there should be an index in the physics/forces directory');
   });
 });
 
