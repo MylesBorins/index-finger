@@ -1,3 +1,4 @@
 {
-  "test": ["a.js", "b.js", "c.js", "core", "physics"]
+  "test": ["a", "b", "c", "core"],
+  "test/core": ["a", "b", "c"]
 }

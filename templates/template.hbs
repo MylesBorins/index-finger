@@ -1,3 +1,5 @@
 module.exports = {
-    {{#list dependencies}}{{name}}: require('./{{path}});{{/list}}
+  {{#each dependencies}}
+  {{this}}: require('./{{this}}');
+  {{/each}}
 };
