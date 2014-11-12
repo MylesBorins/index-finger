@@ -1,0 +1,3 @@
+module.exports = {
+    {{#list dependencies}}{{name}}: require('./{{path}});{{/list}}
+};
