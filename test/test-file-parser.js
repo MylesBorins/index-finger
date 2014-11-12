@@ -12,7 +12,7 @@ var test = require('tape');
 
 var fixturesPath = path.join(__dirname, 'fixtures', 'example');
 
-var expected = require('./fixtures/expected-file-parsed');
+var expected = require('./fixtures/file-parser/expected');
 
 test('file-parser: can load', function (t) {
   t.plan(1);
