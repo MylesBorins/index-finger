@@ -9,10 +9,46 @@
 
 'use strict';
 
+var path = require('path');
+
 var argv = require('minimist')(process.argv.slice(2));
-var lib = require('../lib');
+var indexFinger = require('../lib');
 
-console.log('argv:', argv);
-console.log('lib:', lib);
+var src = argv._[0];
+var dest = argv._[1] || src;
 
-process.exit(0);
+function makePath(src) {
+  if (src[0] === '/') { return src; }
+  return path.join(process.cwd(), src);
+}
+
+function help() {
+  console.log('Usage: index-finger [path to entry] {OPTIONS}');
+  console.log('');
+  console.log('Standard Options:');
+  console.log('');
+  console.log('\t-o Directory to write to other than source directory');
+  console.log('\t-h Show this message');
+}
+
+if (argv.h) {
+  help();
+  process.exit(0);
+}
+
+if (!src) {
+  help();
+  process.exit(0);
+}
+
+src = makePath(src);
+dest = makePath(dest);
+
+indexFinger(src, dest, function (err) {
+  if (err) {
+    console.error(new Error(err));
+    process.exit(1);
+  }
+  console.log('All Done!');
+  process.exit(0);
+});

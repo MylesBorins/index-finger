@@ -45,6 +45,7 @@ npm install -g index-finger
 Standard Options:
 
 -o Directory to write to other than source directory
+-h Show this message
 
 ##methods
 
