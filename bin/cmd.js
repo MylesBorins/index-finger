@@ -38,7 +38,7 @@ if (argv.h) {
 
 if (!src) {
   help();
-  process.exit(0);
+  process.exit(1);
 }
 
 src = makePath(src);

@@ -1,5 +1,5 @@
 {
-  "example": [ "a", "b", "c", "core", "physics" ],
+  "example": [ "core", "physics" ],
   "example/core": [ "a", "b", "c" ],
   "example/physics": [ "a", "b", "c", "forces" ],
   "example/physics/forces": [ "a", "b", "c" ]
