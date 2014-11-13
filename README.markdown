@@ -1,11 +1,3 @@
-famous-node-module
-==================
+#index-finger
 
-This is the base Famo.us NodeJS module. It is used as a starter project for new
-npm modules used by the Famo.us team. To use:
-
- * clone this project
- * `rm -rf` the .git folder 
- * run `git init`
- * run `npm init`
-
+[![Build Status](https://travis-ci.org/TheAlphaNerd/index-finger.svg?branch=master)](https://travis-ci.org/TheAlphaNerd/index-finger)  [![Dependency Status](https://david-dm.org/TheAlphaNerd/index-finger.svg)](https://david-dm.org/TheAlphaNerd/index-finger)  [![devDependency Status](https://david-dm.org/TheAlphaNerd/index-finger/dev-status.svg)](https://david-dm.org/TheAlphaNerd/index-finger#info=devDependencies)
