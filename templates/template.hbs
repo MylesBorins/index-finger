@@ -1,5 +1,5 @@
 module.exports = {
   {{#each dependencies}}
-  {{this}}: require('./{{this}}'),
+  {{this}}: require('./{{this}}'){{#unless @last}},{{/unless}}
   {{/each}}
 };
