@@ -10,7 +10,8 @@
   "scripts": {
     "test": "npm run lint && tape test/test-*.js | tap-spec",
     "watch": "nodemon --ignore node_modules/ -e js,json --exec 'npm test'",
-    "lint": "eslint **/*.js"
+    "lint": "eslint **/*.js",
+    "prepublish": "npm ls && npm test"
   },
   "author": "Myles Borins <myles.borins@gmail.com>",
   "devDependencies": {
