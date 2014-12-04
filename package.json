@@ -15,11 +15,11 @@
   },
   "author": "Myles Borins <myles.borins@gmail.com>",
   "devDependencies": {
-    "eslint": "^0.9.2",
+    "eslint": "^0.10.0",
     "mkdirp": "^0.5.0",
     "nodemon": "^1.2.1",
     "rimraf": "^2.2.8",
-    "tap-spec": "^1.0.0",
+    "tap-spec": "^2.1.1",
     "tape": "^3.0.0"
   },
   "dependencies": {
