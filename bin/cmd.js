@@ -17,9 +17,9 @@ var indexFinger = require('../lib');
 var src = argv._[0];
 var dest = argv._[1] || src;
 
-function makePath(src) {
-  if (src[0] === '/') { return src; }
-  return path.join(process.cwd(), src);
+function makePath(source) {
+  if (source[0] === '/') { return source; }
+  return path.join(process.cwd(), source);
 }
 
 function help() {
