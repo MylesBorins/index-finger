@@ -27,7 +27,7 @@
     "findit": "^2.0.0",
     "handlebars": "^2.0.0",
     "minimist": "^1.1.0",
-    "ncp": "^1.0.1"
+    "ncp": "git://github.com/thealphanerd/ncp#de-modern"
   },
   "bin": {
     "index-finger": "bin/cmd.js"
