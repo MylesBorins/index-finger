@@ -1,6 +1,6 @@
 {
   "name": "index-finger",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "create indexes for your modules",
   "main": "./lib/index.js",
   "repository": {
