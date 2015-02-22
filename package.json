@@ -15,7 +15,7 @@
   },
   "author": "Myles Borins <myles.borins@gmail.com>",
   "devDependencies": {
-    "eslint": "^0.11.0",
+    "eslint": "^0.15.0",
     "mkdirp": "^0.5.0",
     "nodemon": "^1.2.1",
     "rimraf": "^2.2.8",
@@ -25,9 +25,9 @@
   "dependencies": {
     "async": "^0.9.0",
     "findit": "^2.0.0",
-    "handlebars": "^2.0.0",
+    "handlebars": "^3.0.0",
     "minimist": "^1.1.0",
-    "ncp": "git://github.com/thealphanerd/ncp#de-modern"
+    "ncp": "^2.0.0"
   },
   "bin": {
     "index-finger": "bin/cmd.js"
